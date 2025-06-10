@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo general del body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Encabezado principal */
+  header {
+    background-color:  #8B4513
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navegación */
+  nav {
+    background-color:  #8B4513
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contenido principal */
+  main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Secciones */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Pie de página */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  body{
+    background-color: #a2f7cc;
+  }
+  h1{
+    text-align: center;
+  }
+img{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+  
+  .contenedor {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    padding: 20px;
+}
+
+.contenedor img {
+    width: 150px; /* Tamaño de la imagen */
+    height: auto;
+    border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+.contenedor p {
+    font-size: 18px;
+    color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:rgb(218, 177, 127);
+  font-size: large;
+
+}
+
+header {
+  background-color: #8B4513;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.navbar {
+  line-height: normal;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #A0522D;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  vertical-align: top; /* Añadido */
+}
+
+
+.navbar a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #CD853F;
+}
+
+/* ↓↓↓ Aquí está el menú desplegable ↓↓↓ */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #A0522D;
+  min-width: 160px;
+  z-index: 1000;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.dropdown-content li {
+  text-align: left;
+}
+
+.dropdown-content li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.dropdown-content li a:hover {
+  background-color: #CD853F;
+}
+
+.dropdown:hover .dropdown-content {
+  max-height: 500px; /* suficientemente alto para mostrar todo el contenido */
+  opacity: 1;
+}
+/* ↑↑↑ Fin de estilos del menú desplegable ↑↑↑ */
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #8B4513;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #A0522D;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.volver:hover {
+  background-color: #CD853F;
+}
+
+img{
+height: 300px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;;
+}
+p{
+  padding: 10px;
+}
+
+img{ 
+  text-align: right;
+  font-size: medium;
+  size: 234px;
+}
+
+img{ 
+  text-align: right;
+  font-size: medium;
+  size: 234px;
+}
